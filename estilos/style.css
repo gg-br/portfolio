@@ -20,6 +20,7 @@
 body
 {
     background-color: #bec4fa;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main
@@ -56,11 +57,30 @@ aside > h1
     margin: -10px -10px 0px -10px;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
+    text-shadow: 0px 0px 10px #00000052;
 }
 
 aside > h2
 {
-    
+    text-shadow: 0px 0px 10px #00000052;
     color: white;
     text-align: center;
+}
+
+aside > h3
+{
+    text-shadow: 0px 0px 10px #00000052;
+}
+
+aside > ul
+{
+    text-shadow: 0px 0px 10px #00000052;
+}
+
+iframe
+{
+    width: 99vw;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
 }
