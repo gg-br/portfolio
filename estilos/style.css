@@ -1,20 +1,40 @@
 @charset "UTF-8";
 
+
+
 :root 
 {   
     --cor0: #c1c9c3;
     --cor1: #EBDDAE;
     --cor2: #EB363B;
-    --cor3: #6874e0;
+    --cor3: #bec4fa;
     --cor4: #a78b8b;
     --cor5: #8a7c49;
-    --cor6: #152077;
+    --cor6: #727bc4;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', 'cursive';
     --font-android: 'Android', 'cursive';
 }
 
+main
+{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #a59b7988;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
 
 aside
 {
@@ -26,7 +46,7 @@ aside
 aside > h1
 {
     background-color: var(--cor6);
-    color: white;
+    color: black;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     text-align: center;
