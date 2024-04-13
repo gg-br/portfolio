@@ -6,11 +6,11 @@
 {   
     --cor0: #c1c9c3;
     --cor1: #EBDDAE;
-    --cor2: #EB363B;
-    --cor3: #bec4fa;
+    --cor2: #afafaf;
+    --cor3: #666666;
     --cor4: #a78b8b;
     --cor5: #8a7c49;
-    --cor6: #727bc4;
+    --cor6: #8f8f8f;
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', 'cursive';
@@ -19,13 +19,13 @@
 
 body
 {
-    background-color: #bec4fa;
+    background-color: var(--cor2);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 main
 {
-    background-color: rgb(233, 227, 227);
+    background-color: var(--cor6);
     min-width: 100px;
     max-width: 800px;
     margin: auto;
@@ -38,15 +38,16 @@ main
 
 main a
 {
-    color: blue;
+    color: rgb(26, 26, 161);
     font-weight: bold;
 }
 
 aside
 {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 aside > h1
@@ -63,7 +64,7 @@ aside > h1
 aside > h2
 {
     text-shadow: 0px 0px 10px #00000052;
-    color: white;
+    
     text-align: center;
 }
 
