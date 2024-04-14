@@ -10,7 +10,7 @@
     --cor3: #666666;
     --cor4: #a78b8b;
     --cor5: #8a7c49;
-    --cor6: #92aab4;
+    --cor6: #6a8369;
     
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ main a
 
 aside
 {
-    background-color:black;
+    background-color:rgb(0, 10, 3);
     padding: 10px;
     border-radius: 10px;
     
