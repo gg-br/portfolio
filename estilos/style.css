@@ -48,32 +48,29 @@ main a
 
 aside
 {
-    background-color: rgba(255, 255, 255, 0.041);
+    
     padding: 10px;
     border-radius: 10px;
-    
-    
-
 }
 
 aside > h1
 {
-    
     color: white;
     background-color: rgba(255, 255, 255, 0.082);
-    padding: 20px;
+    padding: 15px;
     margin: -10px -10px 0px -10px;
     text-align: center;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     text-shadow: 0px 0px 10px #00000052;
+    
 }
 
 aside > h2
 {
     color: white;
     
-    padding: 20px;
-    margin: 0px -10px;
+    padding: 15px;
+    margin: 20px 0px 20px 0px;
     text-align: center;
     
     text-shadow: 0px 0px 10px #00000052;
@@ -83,8 +80,8 @@ aside > h3
 {
     color: white;
    
-    padding: 20px;
-    margin: 0px -10px;
+    padding: px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
     text-align: center;
     
     text-shadow: 0px 0px 10px #00000052;
@@ -97,7 +94,7 @@ aside > ul
     text-shadow: 0px 0px 10px #00000052;
     background-color: rgba(255, 255, 255, 0.082);
     padding: 25px;
-    border-radius: 0px 0px 10px 10px;
+    
     margin: 0px -10px -10px -10px;
    
 }
@@ -112,14 +109,14 @@ iframe
 
 section
 {
-    background: rgba(255, 255, 255, 0.068);
+    background: rgba(0, 0, 0, 0.507);
     color: white;
     border-radius: 50px;
     padding: 15px;
     width: 550px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
-    margin-top: 350px;
+    margin-top: 50px;
     text-align: center;
     text-shadow: 5px 5px 10px black;
     font-size: 1.2em;
@@ -138,3 +135,15 @@ li
     font-size: 0.9em;
 }
 
+footer
+{
+    text-align: right;
+    margin-top: 30px;
+    font-size: .7em;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul
+{
+    border-radius: 10px;
+}
