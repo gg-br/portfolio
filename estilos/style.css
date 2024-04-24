@@ -25,8 +25,7 @@ body
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-size: auto;
-    
-    
+    font-size: 15pt;
 }
 
 main
@@ -42,7 +41,7 @@ main
 
 main a
 {
-    color: rgb(194, 229, 250);
+    color: rgb(131, 210, 255);
     font-weight: bold;
 }
 
@@ -105,4 +104,19 @@ iframe
     height: 500px;
     margin: auto;
     border: 2px solid black;
+}
+
+section
+{
+    background: rgba(255, 255, 255, 0.068);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+    margin-top: 400px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 1.2em;
 }
